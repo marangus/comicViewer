@@ -42,7 +42,9 @@ import org.json.simple.parser.ParseException;
 	- example of entry "comic starts with: d issue number: 2"
 	
 	Produced by: Mark Angus
-	Date: 17/02/2016*/
+	Date: 17/02/2016
+	Making a quick adjustmen here*/
+
 
 //Provides comic book information based on requests
 public class ConsumeJson {
