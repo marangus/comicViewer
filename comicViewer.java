@@ -1,39 +1,12 @@
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Desktop;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
-import java.awt.Insets;
-import java.awt.event.MouseEvent;
-import java.awt.image.BufferedImage;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URISyntaxException;
-import java.net.URL;
+import java.awt.*;
+import java.io.*;
+import java.net.*;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.Random;
 import javax.imageio.ImageIO;
-import javax.swing.Box;
-import javax.swing.BoxLayout;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
-import javax.swing.JTextField;
-import javax.swing.ScrollPaneConstants;
-import javax.swing.border.LineBorder;
-import javax.swing.event.MouseInputAdapter;
-import org.json.simple.JSONArray;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
+import javax.swing.*;
+import org.json.simple.*;
 
 /*Notes:
 	- System does not display a message when results are not found, simply nothing is displayed.
@@ -42,8 +15,7 @@ import org.json.simple.parser.ParseException;
 	- example of entry "comic starts with: d issue number: 2"
 	
 	Produced by: Mark Angus
-	Date: 17/02/2016
-	Making a quick adjustmen here*/
+	Date: 17/02/2016*/
 
 
 //Provides comic book information based on requests
